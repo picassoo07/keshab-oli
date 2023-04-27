@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 1fr;
+        height: 100vh; 
+      }
+      header {
+        grid-row: 1; 
+        background-color: rgb(78, 20, 238);
+        color: rgb(218, 203, 203);
+        padding: 20px;
+      }
+      main {
+        grid-row: 2; 
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      footer {
+        grid-row: 3; 
+        background-color: rgb(73, 23, 23);
+        color: white;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <header>
+        <h1>Header</h1>
+      </header>
+      <main>
+        <h2>Main Content</h2>
+        <p>Cristiano Ronaldo is a professional football player from Portugal who is widely considered one of the greatest footballers of all time. He was born on February 5, 1985, and began playing football at a young age. He has played for several top teams throughout his career, including Manchester United, Real Madrid, and currently plays for Manchester United again..</p>
+      </main>
+      <footer>
+        <p>Footer</p>
+      </footer>
+    </div>
+  </body>
+</html>

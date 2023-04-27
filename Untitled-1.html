@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .grid-container {
+        border: none;
+        display: grid;
+        grid-template-columns: lfr lfr lfr;
+        grid-template-rows: 100px 100px 100px;
+        grid-gap: 10px;
+        grid grid-template-areas: 
+        "header header test"
+        "sidebar main main"
+        "footer footer footer";
+        
+      }
+      .header {
+        grid-area: header;
+      }
+      .sidebar {
+        grid-area: sidebar;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">balu</div>
+      <div class="grid-item">kalu</div>
+      <div class="grid-item">salu</div>  
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>  
+    </div>
+  </body>
+</html>
